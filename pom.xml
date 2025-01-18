@@ -201,6 +201,10 @@ under the License.
           <groupId>org.apache.httpcomponents.core5</groupId>
           <artifactId>httpcore5</artifactId>
         </exclusion>
+        <exclusion>
+          <groupId>org.apache.velocity</groupId>
+          <artifactId>velocity-engine-core</artifactId>
+        </exclusion>
       </exclusions>
     </dependency>
     <dependency>
